@@ -1,0 +1,36 @@
+body {
+  background-color: #FEA2C1;
+  margin: 0;
+}
+.titulo {
+  position: relative;
+  top: 30px;
+  left: 60px;
+  font-family: times;
+  font-size: 30px;
+  font-weight: bold;
+}
+li{
+  list-style: none;
+  display: inline-block;
+  margin: 50px;
+}
+.fotos {
+  border: solid;
+}
+
+/*Etiqueta img hace referencia a las imagenes que he incorporado en el archivo html*/
+img {
+  width: 200px; /*propiedad que da el ancho en pixeles*/
+  height: 200px; /*propiedad que da la altura en px*/
+  opacity: 1;
+}
+div {
+position: relative;
+bottom: 40px;
+left: 70px;
+font-family: times;
+font-size: 30px;
+font-weight: bold;
+color: white;
+}
